@@ -1,0 +1,6 @@
+python-dotenv
+supabase
+streamlit
+langgraph
+langchain-anthropic
+langchain-core
