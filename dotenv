@@ -1,1 +1,22 @@
+# --- DATABASE (Supabase) ---
+# Find these in Supabase Dashboard > Project Settings > API
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key-here
 
+# --- LLM PROVIDERS (The Brain) ---
+# Required for LangGraph reasoning (Anthropic Claude)
+ANTHROPIC_API_KEY=sk-ant-api03-your-anthropic-key-here
+
+# --- OBSERVABILITY (LangSmith) ---
+# Highly recommended to show the "inner thoughts" of the agent
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
+LANGCHAIN_API_KEY=your-langsmith-api-key-here
+LANGCHAIN_PROJECT="home-ops-manager"
+
+# --- TOOLS & INTEGRATIONS ---
+# For parsing images of handwritten lists
+GOOGLE_API_KEY=your-google-api-key-here
+
+# For WhatsApp/n8n triggers
+WHATSAPP_WEBHOOK_URL=https://your-n8n-instance.com/webhook/home-ops
